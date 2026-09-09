@@ -2,7 +2,7 @@ def obter_nome_produto():
     return input("Digite o nome do produto: ")
 
 def obter_preco_produto():
-    return float(input("Digite o preço: "))
+    return float(input("Digite o preço do produto (R$): "))
 
 def obter_quantidade_produto():
     return int(input("Digite a quantidade em estoque: "))
